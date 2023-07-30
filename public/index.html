@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700;900&family=Sacramento&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <link rel="icon" type="image/x-icon"
+        href="https://w7.pngwing.com/pngs/551/946/png-transparent-computer-icons-web-development-software-developer-software-development-icon-design-others-angle-text-logo.png">
+
+    <title>MY PORTFOLIO</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">MUZAMMIL</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Muzammil</span><br>A FullStack
+                    Developer</h1>
+
+                <a href="mailto:kmuzammil12546@gmail.com" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/muzammil-khan-018a92206/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/kmuzzi10" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image style="margin-top: 80px;" class="home__blob-img" x="50" y="60"
+                            href="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./assets/img/muz.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Muzammil</h2>
+                    <p class="about__text">As a passionate and skilled Full Stack Developer, I thrive on crafting
+                        innovative and efficient solutions that drive impactful results. With a strong background in web
+                        development and a keen eye for detail, I take pride in creating seamless user experiences while
+                        ensuring robust and scalable backend functionality.
+
+                        My journey into software development started with a curiosity-driven exploration of various
+                        programming languages and technologies. Over the years, I have honed my skills in front-end and
+                        back-end technologies, enabling me to deliver end-to-end solutions that meet both user needs and
+                        business objectives</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">i have good skills in these technologies</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-nodejs skills__icon'></i>
+                            <span class="skills__name">Node JS</span>
+                        </div>
+                        <div class="skills__bar skills__node">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-mongodb skills__icon'></i>
+                            <span class="skills__name">MongoDB</span>
+                        </div>
+                        <div class="skills__bar skills__mongo">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-postgresql skills__icon'></i>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__bar skills__sql">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react skills__icon'></i>
+                            <span class="skills__name">React</span>
+                        </div>
+                        <div class="skills__bar skills__react">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-bootstrap skills__icon'></i>
+                            <span class="skills__name">BootStrap</span>
+                        </div>
+                        <div class="skills__bar skills__bootstrap">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-jquery skills__icon'></i>
+                            <span class="skills__name">JQuery</span>
+                        </div>
+                        <div class="skills__bar skills__jq">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">98%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-php skills__icon'></i>
+                            <span class="skills__name">PHP</span>
+                        </div>
+                        <div class="skills__bar skills__php">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">23%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__java">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">16%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-c-plus-plus skills__icon'></i>
+                            <span class="skills__name">C++</span>
+                        </div>
+                        <div class="skills__bar skills__c">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">46%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-data skills__icon'></i>
+                            <span class="skills__name">Oracle</span>
+                        </div>
+                        <div class="skills__bar skills__oracle">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">63%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-laptop bx-tada bx-rotate-90 skills__icon'></i>
+                            <span class="skills__name">WEB3</span>
+                        </div>
+                        <div class="skills__bar skills__web3">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">48%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="container work__container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3><b> DRUM KIT</b></h3>
+                        <ul>
+                            <li style="list-style: circle;">This is drumkit in which you have diffrent instruments to
+                                play i made this using html,css,js and jquery</li>
+                        </ul>
+                        <a class="work__img" href=""> <img src="./assets/img/drumkit.PNG" alt=""></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3><b>SIMON GAME</b></h3>
+                        <ul>
+                            <li style="list-style: circle;">This is simon game in which you have to learn diffrent
+                                patterns and play
+                                i made this using html,css,js and jquery</li>
+                        </ul>
+                        <a class="work__img" href=""> <img src="./assets/img/simon.PNG" alt=""></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3><b>DICE GAME</b></h3>
+                        <ul>
+                            <li style="list-style: circle;">This is a dice game in which you have 2 player highest num
+                                wins i made this using html,css,js and jquery</li>
+                        </ul>
+                        <a class="work__img" href=""> <img src="./assets/img/dice.PNG" alt=""></a>
+                    </div>
+                </div>
+                <div style="margin-top: 40px;" class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3><b>INTEREST CALCULATOR</b></h3>
+                        <ul>
+                            <li style="list-style: circle;">This is a interest calculator in which you have to put
+                                aamount and it gives you interest depending on situation i made this using html,css and
+                                js </li>
+                        </ul>
+                        <a class="work__img" href=""> <img src="./assets/img/calcu.PNG" alt=""></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3><b>TINDOG</b></h3>
+                        <ul>
+                            <li style="list-style: circle;">This is a pet finding website i made clone of this website
+                                in this website you are able to find pet in your town for your home i made this using
+                                html,css and js </li>
+                        </ul>
+                        <a class="work__img" href=""> <img src="./assets/img/tindog.PNG" alt=""></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3><b>EMPLOYEE MANAGEMENT SYSTEM</b></h3>
+                        <ul>
+                            <li style="list-style: circle;">This is employee management system you are able to manage
+                                employees in your work place i made this using html,css,js and php</li>
+                        </ul>
+                        <a class="work__img" href=""> <img src="./assets/img/employee.PNG" alt=""></a>
+                    </div>
+                </div>
+                <h3 style="margin-top: 40px;"><b>And much more interesting projects like</b></h3>
+                <ul style="list-style: circle;">
+                    <li>lemon recipt maker</li>
+                    <li>periodic table</li>
+                    <li>restaurant website</li>
+                    <li>interesting games in js</li>
+                    <li>everything is on github go and check it!</li>
+                    <li style="margin-top: 20px;list-style: none;"><a href="https://github.com/kmuzzi10"><i
+                                class='bx bxl-github skills__icon'></i></a></li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <span>
+
+                    <h3><i class='bx bxs-phone-call'></i> +923112279622</h3>
+                    <h3><i class='bx bx-envelope'></i> kmuzammil12546@gmail.com</h3>
+                </span>
+
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">THANK YOU FOR VISITING ME!</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/muzammil-khan-018a92206/" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/kmuzzi10" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="https://twitter.com/home" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; MUZAMMIL. All rigths reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
